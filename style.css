@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   padding:2vw;
+   background-color:#131F23;
+}
+.data{
+    font-size: 100%;
+    color: white;
+}
+.data img{
+    width: 15%;
+}
+p{
+    padding: 5px;
+}
+.find input{
+    border: none;
+    height: 30px;
+    padding: 5px;
+}
+.find button{
+    height: 35px;
+    width: 7vw;
+    border: none;
+    background-color: #0045AC;
+    cursor: pointer;
+}

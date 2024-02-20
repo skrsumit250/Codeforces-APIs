@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Codeforces User Profile</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <div class="data">
+        <h1>Codeforces User Profile</h1>
+        <img id="user-avatar" alt="">
+        <p id="user-email"></p>
+        <p id="user-organization"></p>
+        <p id="user-country"></p>
+        <p id="user-city"></p>
+        <p id="user-friends"></p>
+        <p id="user-rank" style="color: #14FF00;"></p>
+        <p id="user-rating" style="color: #14FF00;"></p>
+        <p id="user-max-rating" style="color: red;"></p>
+        <p id="user-max-rank"  style="color: red;"></p>
+    </div>
+    <div class="find">
+        <input type="text" id="user-handle" name="user-handle" placeholder="Enter Username">
+        <button onclick="getUserData()">Find User</button>
+    </div>
+</body>
+</html>
